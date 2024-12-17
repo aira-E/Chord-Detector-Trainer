@@ -226,7 +226,7 @@ def save_model(model, encoder, filepath="trained_chord_detector.pth"):
 
 if __name__ == "__main__":
     #Change the path depending on the user's path
-    dataset_path = r"D:\ComputerEngineering\RESEARCH\data_training\data_sets\Extracted_Chords"
+    dataset_path = r"D:\Aira-E\Chord-Detector-Trainer\Extracted_Chords"
 
     features, labels, encoder = preprocess_dataset(dataset_path)
     save_preprocessed_data(features, labels, encoder, "preprocessed_data.pkl")

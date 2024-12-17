@@ -104,7 +104,7 @@ if __name__ == "__main__":
     model_filepath = "trained_chord_detector.pth"
 
     # Path to the input .wav file
-    input_wav = r"D:\ComputerEngineering\RESEARCH\data_training\data_sets\Extracted_Chords\G_major\Major-G_Marc.wav"
+    input_wav = r"D:\Aira-E\Chord-Detector-Trainer\Extracted_Chords\G_major\Major-G_Aira.wav"
 
     # Load the model and encoder
     model, encoder = load_model(model_filepath)
